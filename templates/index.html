@@ -34,7 +34,7 @@
 
       <!-- Section for Featured Image and Facts table -->
       <div class="row" id="mars-featured-image">
-        <div class="col-md-8">
+        <div class="col-lg-8 col-md-8 col-sm-12">
           <h2>Featured Mars Image</h2>
 
           <!-- if images is False/None/non-existent, then default to error message -->
@@ -45,9 +45,9 @@
           />
         </div>
 
-        <div class="col-md-4">
+        <div class=""col-lg-4 col-md-4 col-sm-12">
           <!-- Mars Facts -->
-          <div class="row" id="mars-facts">
+          <div class="table" id="mars-facts">
             <h4>Mars Facts</h4>
             {{ mars.facts | safe }}
           </div>
@@ -63,8 +63,8 @@
         {% for hemisphere in mars.hemispheres %}
         <div class="col-md-6">
           <div class="thumbnail">
-            <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="...">
-            <div class="caption">
+            <img class="img-circle" src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="Responsive image">
+            <div class="caption text-center">
               <h3>{{hemisphere.title}}</h3>
             </div>
           </div>
