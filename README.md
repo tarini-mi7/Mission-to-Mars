@@ -10,7 +10,7 @@ Create a web application with Flask that will automatically scrape different web
 ## Screenshot and Live Demo
 
 <p align="center">
-    <img src="https://github.com/tarini-mi7/Mission-to-Mars/blob/main/resources/img1.png" class="img-responsive" alt="Responsive image" width=700px height=auto>
+    <img src="https://github.com/tarini-mi7/Mission-to-Mars/blob/de0306e2cc53e9c698d7d5eba1f4e2392efb567a/resources/img1.png" class="img-responsive" alt="Responsive image" width=700px height=auto>
     <img src="https://github.com/tarini-mi7/Mission-to-Mars/blob/main/resources/img2.png" class="img-responsive" alt="Responsive image" width=700px height=auto>
     <img src="https://github.com/tarini-mi7/Mission-to-Mars/blob/main/resources/img3.png" class="img-responsive" alt="Responsive image" width=700px height=auto>
 </p>
